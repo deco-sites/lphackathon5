@@ -20,6 +20,10 @@
     -moz-appearance: textfield;
     appearance: textfield;
   }
+  [data-manifest-key="site/sections/BackgroundGrid.tsx"] {
+    z-index: -1;
+    position: relative;
+  }
 }
 
 @layer components {
