@@ -4,7 +4,7 @@ export default function BackgroundGrid(){
       <div class="w-full h-full border-base-content" style={{
         borderLeft: "3px solid",
         background: "white",
-        backgroundImage: "radial-gradient(black 1px, transparent 0)",
+        backgroundImage: "radial-gradient(rgb(179 179 179) 1px, transparent 0)",
         backgroundSize: "19px 19px",
         backgroundPosition: "-19px -19px",
       }}>

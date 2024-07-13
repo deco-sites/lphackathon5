@@ -15,13 +15,59 @@
       "__resolveType": "site/sections/SectionCards.tsx"
     },
     {
-      "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/Projects.tsx",
+      "title": "Featured Projects",
+      "description": "Have designed morethan 20 projects",
+      "cards": [
+        {
+          "tag": {
+            "theme": "tertiary",
+            "label": "No-Code"
+          },
+          "image": {
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11601/d071d383-04be-4967-9fac-d1293bb1912a",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11601/5798b15a-ff95-4abb-a417-a8aa819424be"
+          },
+          "title": "4 style Portfolio design",
+          "url": "#"
+        },
+        {
+          "image": {
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11601/2a71655a-c33f-4406-8fc3-89ecd396e2cd",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11601/8154f22d-41b2-4118-9a79-0790c2dfe81e"
+          },
+          "url": "#",
+          "title": "Color system  for app",
+          "tag": {
+            "label": "Ui Design",
+            "theme": "secondary"
+          }
+        },
+        {
+          "image": {
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11601/90701935-fb72-413b-a253-6d5309baf150",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11601/3677fcef-f27e-4f1e-b5a3-18d798478ef6"
+          },
+          "url": "#",
+          "title": "Onboarding screen process",
+          "tag": {
+            "label": "UX Design",
+            "theme": "primary"
+          }
+        },
+        {
+          "image": {
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11601/f6a8212b-32fe-4c2b-9c0d-43f194114a6f",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11601/3db2c32c-b79e-44b1-8876-621e73c1ad49"
+          },
+          "url": "#",
+          "title": "Finance Landing page",
+          "tag": {
+            "label": "UI Design",
+            "theme": "fourth"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "Footer"

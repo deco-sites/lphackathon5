@@ -17,8 +17,30 @@ export default {
         },
       },
       fontFamily: {
-        highlight: "Handlee"
-      }
+        highlight: "Handlee",
+      },
+      borderRadius: {
+        "tagButton": "1.647px 19.761px 19.761px 19.761px",
+        "tagButton-2": "2.238px 26.852px 26.852px 26.852px;",
+      },
+      boxShadow: {
+        "custom-accent":
+          "3.294px 3.294px 8.234px 0px rgba(240, 114, 205, 0.16)",
+        "custom-primary":
+          "3.294px 3.294px 8.234px 0px rgba(229, 193, 65, 0.16)",
+        "custom-secondary":
+          "3.294px 3.294px 8.234px 0px rgba(90, 181, 232, 0.16)",
+        "custom-success":
+          "3.294px 3.294px 8.234px 0px rgba(240, 114, 205, 0.16)",
+        "custom-accent-2":
+          "4.475px 4.475px 11.188px 0px rgba(240, 114, 205, 0.16)",
+        "custom-primary-2":
+          "4.475px 4.475px 11.188px 0px rgba(229, 193, 65, 0.16)",
+        "custom-secondary-2":
+          "4.475px 4.475px 11.188px 0px rgba(90, 181, 232, 0.16)",
+        "custom-success-2":
+          "4.475px 4.475px 11.188px 0px rgba(240, 114, 205, 0.16)",
+      },
     },
   },
 };

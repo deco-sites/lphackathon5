@@ -49,7 +49,9 @@ export type AvailableIcons =
   | "ArrowCircleDown"
   | "Pen"
   | "Eye"
-  | "Star";
+  | "Star"
+  | "Indicator"
+  | "ArrowCircleRight";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**
