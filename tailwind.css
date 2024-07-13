@@ -40,6 +40,31 @@
   [data-dot] div .dot {
     background-color: #E4E4E7;
   }
+
+  .highlighted {
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: currentColor;
+  }
+
+  .highlighted-before {
+    position: relative;
+  }
+  .highlighted-before::before {
+    content: '';
+    width: 100%;
+    z-index: -1;
+    height: 5px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    @apply lg:h-[10px];
+  }
+
+  .highlighted-before.variant::before {
+    height: 10px;
+
+    @apply lg:h-[22px];
+  }
 }
 
 @layer utilities {

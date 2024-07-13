@@ -1,1 +1,21 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Portfolio",
+        "url": "#Portfolio"
+      },
+      {
+        "label": "Hire Me",
+        "url": "#HireMe",
+        "highlighted": true
+      }
+    ],
+    "buttons": []
+  },
+  "logo": {
+    "icon": "Logo",
+    "title": "znisa"
+  }
+}

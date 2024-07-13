@@ -6,6 +6,9 @@
       "__resolveType": "site/sections/BackgroundGrid.tsx"
     },
     {
+      "__resolveType": "Header"
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Click here to tweak this text however you want.</p>",
       "cta": [],
