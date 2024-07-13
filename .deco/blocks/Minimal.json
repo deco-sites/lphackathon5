@@ -14,6 +14,34 @@
     "--tab-border": "1px",
     "--tab-radius": "0.5rem"
   },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [
+          {
+            "weight": "400"
+          },
+          {
+            "weight": "500"
+          },
+          {
+            "weight": "600"
+          }
+        ],
+        "family": "Inter"
+      },
+      {
+        "variations": [
+          {
+            "weight": "400"
+          }
+        ],
+        "family": "Handlee"
+      }
+    ]
+  },
+  "mode": "light",
   "mainColors": {
     "base-100": "#FDE5BE",
     "primary": "#FF6502",
@@ -24,15 +52,5 @@
     "error": "#d82c0d",
     "warning": "#ffc453",
     "success": "#008060"
-  },
-  "font": {
-    "__resolveType": "website/loaders/fonts/googleFonts.ts",
-    "fonts": [
-      {
-        "variations": [],
-        "family": "Shrikhand"
-      }
-    ]
-  },
-  "mode": "light"
+  }
 }
