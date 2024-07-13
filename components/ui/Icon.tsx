@@ -43,6 +43,7 @@ export type AvailableIcons =
   | "WhatsApp"
   | "XMark"
   | "Zoom"
+  | "Logo"
   | "Person"
   | "ArrowCircleLeft"
   | "ArrowCircleDown"
