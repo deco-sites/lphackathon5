@@ -42,7 +42,7 @@
   }
 
   .highlighted {
-    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: currentColor;
   }
 
@@ -63,7 +63,7 @@
   .highlighted-before.variant::before {
     height: 10px;
 
-    @apply lg:h-[22px];
+    @apply lg:h-[22px] lg:bottom-[9px];
   }
 }
 

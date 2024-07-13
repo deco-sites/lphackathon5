@@ -9,6 +9,9 @@
       "__resolveType": "Header"
     },
     {
+      "__resolveType": "site/sections/HeroApresentaion.tsx"
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Click here to tweak this text however you want.</p>",
       "cta": [],
