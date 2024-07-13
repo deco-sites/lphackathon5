@@ -44,7 +44,7 @@ export default function HeroApresentaion({
 }: Props) {
   return (
     <Container>
-      <article class="pl-5 pr-[14px] lg:pl-6 lg:pr-0 flex w-full flex-col gap-8 lg:gap-16">
+      <article class="pl-5 pr-[14px] lg:pl-6 lg:pr-0 flex w-full flex-col gap-8 lg:gap-16 mb-20 lg:mb-28">
         <div class="flex gap-1 lg:gap-4 rotate-[-3deg] lg:rotate-[-4deg] items-center">
           <Icon
             id={icon}
