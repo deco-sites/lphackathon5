@@ -1,0 +1,13 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1720962904707,
+      "tag": "0000_hot_shooting_star",
+      "breakpoints": true
+    }
+  ]
+}
