@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/apps/deco/records.ts",
+  "url": "libsql://lphackathon5-decocx.turso.io",
+  "authToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "name": "DATABASE_AUTH_TOKEN",
+    "encrypted": "a066fff39ff3fecabf784bb1c0c7708e8de7b1197a83e3b9f6baa9d2394681e980ae94b32e1fd19f879f08bff9545efc3a7ded853c615f4fd46fced7aec8427097d2e001158753778a9202a3ba5e44beecd4714525c103b671e8cb14c21b5ce5d69877dce21a11d8f612bb58487602f68c9c272874aca17b104cf41cc06efd200ce940a523ab3d412966bb3f5bc33e260d25796cf703904934df7440430c2635afee615ad2f87dfc704234d09f3a4a613e416e78c35bf12941d97b0876a8e199f5698d8827739646ef8fbb596acd9a800718df696fc97c02f78e1b86927e419b"
+  }
+}
