@@ -65,6 +65,13 @@
 
     @apply lg:h-[22px] lg:bottom-[9px];
   }
+
+  .cross-border-x::before {
+    @apply top-0 left-0 absolute w-full h-full border-base-content border-t-2 border-b-2;
+  }
+  .cross-border-y::after {
+    @apply top-0 left-0 absolute w-full h-full border-base-content border-l-2 border-r-2;
+  }
 }
 
 @layer utilities {

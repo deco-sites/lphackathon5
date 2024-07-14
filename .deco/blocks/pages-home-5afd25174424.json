@@ -70,6 +70,64 @@
       ]
     },
     {
+      "__resolveType": "site/sections/WorkExperience.tsx",
+      "title": "Work Experience",
+      "description": "Have been designing since my past 4 years",
+      "items": [
+        {
+          "item": {
+            "theme": "primary",
+            "label": "1"
+          },
+          "title": [
+            {
+              "label": "Design intern at "
+            },
+            {
+              "highlighted": true,
+              "label": "Google"
+            }
+          ],
+          "subtitle": "Worked on design system at Material 3 designs",
+          "description": "20, April 2021"
+        },
+        {
+          "item": {
+            "theme": "secondary",
+            "label": "2"
+          },
+          "title": [
+            {
+              "label": "Sr. UI/UX Designer at "
+            },
+            {
+              "label": "Microsoft",
+              "highlighted": true
+            }
+          ],
+          "subtitle": "Worked on design system at Material 3 designs",
+          "description": "20, April 2022"
+        },
+        {
+          "item": {
+            "theme": "tertiary",
+            "label": "3"
+          },
+          "title": [
+            {
+              "label": "Software Engineer at"
+            },
+            {
+              "label": "SASS Startup",
+              "highlighted": true
+            }
+          ],
+          "subtitle": "Worked on design system at Material 3 designs",
+          "description": "20, April 2023"
+        }
+      ]
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

@@ -58,6 +58,7 @@
     "base-content": "#0C0C0C",
     "tertiary-content": "#DB4A90",
     "secondary-content": "#5AB5E8",
-    "success-content": "#4ED543"
+    "success-content": "#4ED543",
+    "neutral-content": "#706F6F"
   }
 }
