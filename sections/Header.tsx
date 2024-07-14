@@ -16,7 +16,7 @@ export interface Nav {
      * @default Logo
      */
     icon?: AvailableIcons;
-     /**
+    /**
      * @default znisa
      */
     title?: string;
@@ -50,6 +50,13 @@ export default function Header({
             id={logo.icon ?? "Logo"}
             width={27.001}
             height={27.001}
+            class="lg:hidden"
+          />
+          <Icon
+            id={logo.icon ?? "Logo"}
+            width={48.956}
+            height={49}
+            class="hidden lg:block"
           />
           <span class="font-highlight font-normal highlighted text-base-content text-xl lg:text-4xl leading-normal">
             {logo.title}
@@ -61,7 +68,9 @@ export default function Header({
               <a
                 href={link.url}
                 aria-label={link.label}
-                class={`link no-underline hover:underline text-base-content text-base lg:text-2xl leading-normal ${link.highlighted ? "highlighted-before before:bg-accent" : ""}`}
+                class={`link no-underline hover:underline text-base-content text-base lg:text-2xl leading-normal ${
+                  link.highlighted ? "highlighted-before before:bg-accent" : ""
+                }`}
               >
                 {link.label}
               </a>

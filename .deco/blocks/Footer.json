@@ -1,1 +1,25 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Twitter X",
+      "href": "#"
+    },
+    {
+      "network": "Linkedin",
+      "href": "#"
+    },
+    {
+      "network": "Instagram",
+      "href": "#"
+    }
+  ],
+  "subscribe": {},
+  "logo": {
+    "icon": "Logo",
+    "title": "znisa"
+  },
+  "copyright": "Copyright. Portfolio 2024"
+}
