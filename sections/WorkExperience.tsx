@@ -108,7 +108,7 @@ export default function WorkExperience({
   return (
     <Container>
       <article class="mb-20 lg:mb-28 pl-5 pr-3 flex flex-col lg:flex-row gap-8 lg:gap-20 lg:justify-between">
-        <div class="flex flex-col gap-5 lg:gap-6">
+        <div class="flex flex-col gap-5 lg:gap-6 lg:py-12">
           <div class="flex flex-col gap-3 w-fit">
             <h3 class="w-fit text-nowrap flex items-center justify-center bg-accent font-highlight highlighted font-normal text-base-content text-xl lg:text-[32px] leading-normal">
               {title}
