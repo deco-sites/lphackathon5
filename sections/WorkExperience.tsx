@@ -131,11 +131,11 @@ export default function WorkExperience({
           </p>
         </div>
         <div class="contents lg:block p-12 relative">
-          <hr class="top-12 left-0 absolute w-full bg-base-content" style={{height: "2px"}}></hr>
-          <hr class="bottom-12 left-0 absolute w-full bg-base-content" style={{height: "2px"}}></hr>
+          <hr class="hidden lg:block top-12 left-0 absolute w-full bg-base-content" style={{height: "2px"}}></hr>
+          <hr class="hidden lg:block  bottom-12 left-0 absolute w-full bg-base-content" style={{height: "2px"}}></hr>
 
-          <div class="top-0 left-12 absolute h-full bg-base-content" style={{width: "2px"}}></div>
-          <div class="top-0 right-12 absolute h-full bg-base-content" style={{width: "2px"}}></div>
+          <div class="hidden lg:block  top-0 left-12 absolute h-full bg-base-content" style={{width: "2px"}}></div>
+          <div class="hidden lg:block  top-0 right-12 absolute h-full bg-base-content" style={{width: "2px"}}></div>
 
           <div class="w-full flex flex-wrap flex-col gap-4 sm:gap-9 lg:px-28 lg:py-16">
             {items.map(({ title, item, description, subtitle }) => {
